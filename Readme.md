@@ -1,7 +1,7 @@
 # Name 
 In class competition for MSBD5001
 ## Description
-This competition is an individual project as a part of the course MSBD 5001 Foudation of Data Analytics. This competition is about modeling the performance of computer programs. The dataset provided describes a few examples of running SGDClassifier in Python. The dataset features contains parameters of SGDClassifier as well as the parameters used to generate the synthetic training data. And the target feature is the training time. The train data given to us containe 400 data samples of running the SGDclassifier and 13 features including the one target feature. The test data containes 100 data samples without the time feature.
+This competition is an individual project as a part of the course MSBD 5001 Foudation of Data Analytics. This competition is about modeling the performance of computer programs. The dataset provided describes a few examples of running SGDClassifier in Python. The dataset features contains parameters of SGDClassifier as well as the parameters used to generate the synthetic training data. And the target feature is the training time. The train data given to us containe 400 data samples of running the SGDclassifier and 13 features including the one target feature. The test data containes 100 data samples without the time feature.The prediction for the test file is in submission.csv
 ## Programming Language and libraries used
 Python 3 has used to code for the competition
 sklearn 0.20.0
@@ -25,6 +25,6 @@ tf.feature_column.numeric_column()# Represents real valued or numerical features
 tf.estimator.DNNLinearCombinedRegressor()# An estimator for TensorFlow Linear and DNN joined models for regression.
 ```
 ## How to run the code
-Running  as ipython notebook with the required files for train and test in the same folder will run the code.
+Running  as ipython notebook with the required files for train and test in the same folder will run the code. 
 ## Author
 Reshika, PALANIYAPPAN VELUMANI (20544313)
